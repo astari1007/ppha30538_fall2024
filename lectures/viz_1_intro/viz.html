@@ -2,7 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
+<<<<<<< Updated upstream
 <meta name="generator" content="quarto-1.5.56">
+=======
+<meta name="generator" content="quarto-1.5.57">
+>>>>>>> Stashed changes
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -296,27 +300,49 @@ pip install vega_datasets</code></pre>
 </section>
 <section id="my-first-plot-image" class="level2">
 <h2 class="anchored" data-anchor-id="my-first-plot-image">My first plot – image</h2>
+<<<<<<< Updated upstream
 <div id="4532d362" class="cell" data-execution_count="1">
 <div class="cell-output cell-output-display" data-execution_count="1">
 
 <style>
   #altair-viz-b5805643ddd945b38d576f0445fdc090.vega-embed {
+=======
+<div id="e6158444" class="cell" data-execution_count="1">
+<div class="cell-output cell-output-display" data-execution_count="1">
+
+<style>
+  #altair-viz-dfc05b9a1f0f4f97b7a1e49521c93a44.vega-embed {
+>>>>>>> Stashed changes
     width: 100%;
     display: flex;
   }
 
+<<<<<<< Updated upstream
   #altair-viz-b5805643ddd945b38d576f0445fdc090.vega-embed details,
   #altair-viz-b5805643ddd945b38d576f0445fdc090.vega-embed details summary {
     position: relative;
   }
 </style>
 <div id="altair-viz-b5805643ddd945b38d576f0445fdc090"></div>
+=======
+  #altair-viz-dfc05b9a1f0f4f97b7a1e49521c93a44.vega-embed details,
+  #altair-viz-dfc05b9a1f0f4f97b7a1e49521c93a44.vega-embed details summary {
+    position: relative;
+  }
+</style>
+<div id="altair-viz-dfc05b9a1f0f4f97b7a1e49521c93a44"></div>
+>>>>>>> Stashed changes
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
+<<<<<<< Updated upstream
     if (outputDiv.id !== "altair-viz-b5805643ddd945b38d576f0445fdc090") {
       outputDiv = document.getElementById("altair-viz-b5805643ddd945b38d576f0445fdc090");
+=======
+    if (outputDiv.id !== "altair-viz-dfc05b9a1f0f4f97b7a1e49521c93a44") {
+      outputDiv = document.getElementById("altair-viz-dfc05b9a1f0f4f97b7a1e49521c93a44");
+>>>>>>> Stashed changes
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
@@ -413,7 +439,11 @@ pip install vega_datasets</code></pre>
 </section>
 <section id="imports-and-renderer" class="level2">
 <h2 class="anchored" data-anchor-id="imports-and-renderer">Imports and Renderer</h2>
+<<<<<<< Updated upstream
 <div id="32403715" class="cell" data-execution_count="2">
+=======
+<div id="4b55fffd" class="cell" data-execution_count="2">
+>>>>>>> Stashed changes
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> altair <span class="im">as</span> alt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -422,7 +452,11 @@ pip install vega_datasets</code></pre>
 <section id="vega_datasets-formatted-for-pandas" class="level2">
 <h2 class="anchored" data-anchor-id="vega_datasets-formatted-for-pandas">Vega_datasets formatted for Pandas</h2>
 <p>We will often use datasets from the <a href="https://github.com/vega/vega-datasets">vega-datasets</a> repository. Some of these datasets are directly available as Pandas data frames:</p>
+<<<<<<< Updated upstream
 <div id="be395e23" class="cell" data-execution_count="3">
+=======
+<div id="826f9e2f" class="cell" data-execution_count="3">
+>>>>>>> Stashed changes
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> vega_datasets <span class="im">import</span> data <span class="im">as</span> vega_data</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>cars <span class="op">=</span> vega_data.cars()              </span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>cars.head()  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -515,7 +549,11 @@ pip install vega_datasets</code></pre>
 </section>
 <section id="vega_datasets-formatted-for-json" class="level2">
 <h2 class="anchored" data-anchor-id="vega_datasets-formatted-for-json">Vega_datasets formatted for JSON</h2>
+<<<<<<< Updated upstream
 <div id="65464fab" class="cell" data-execution_count="4">
+=======
+<div id="741754f4" class="cell" data-execution_count="4">
+>>>>>>> Stashed changes
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">#URL if you want </span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>vega_data.cars.url</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="4">
@@ -539,7 +577,11 @@ pip install vega_datasets</code></pre>
 <section id="weather-data" class="level2">
 <h2 class="anchored" data-anchor-id="weather-data">Weather Data</h2>
 <p>Statistical visualization in Altair begins with <a href="http://vita.had.co.nz/papers/tidy-data.html">“tidy”</a> data frames. Here, we’ll start by creating a simple data frame (<code>df</code>) containing the average precipitation (<code>precip</code>) for a given <code>city</code> and <code>month</code> :</p>
+<<<<<<< Updated upstream
 <div id="bb9d72ce" class="cell" data-execution_count="5">
+=======
+<div id="2a64fdc2" class="cell" data-execution_count="5">
+>>>>>>> Stashed changes
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.DataFrame({</span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">'city'</span>: [<span class="st">'Seattle'</span>, <span class="st">'Seattle'</span>, <span class="st">'Seattle'</span>, <span class="st">'New York'</span>, <span class="st">'New York'</span>, <span class="st">'New York'</span>, <span class="st">'Chicago'</span>, <span class="st">'Chicago'</span>, <span class="st">'Chicago'</span>],</span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">'month'</span>: [<span class="st">'Apr'</span>, <span class="st">'Aug'</span>, <span class="st">'Dec'</span>, <span class="st">'Apr'</span>, <span class="st">'Aug'</span>, <span class="st">'Dec'</span>, <span class="st">'Apr'</span>, <span class="st">'Aug'</span>, <span class="st">'Dec'</span>],</span>
@@ -641,34 +683,60 @@ pip install vega_datasets</code></pre>
 </section>
 <section id="the-chart-object" class="level2">
 <h2 class="anchored" data-anchor-id="the-chart-object">The <code>Chart</code> object</h2>
+<<<<<<< Updated upstream
 <div id="17c4be4c" class="cell" data-execution_count="6">
+=======
+<div id="9953d23d" class="cell" data-execution_count="6">
+>>>>>>> Stashed changes
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>chart <span class="op">=</span> alt.Chart(df)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="a-single-point" class="level2">
 <h2 class="anchored" data-anchor-id="a-single-point">A single point</h2>
+<<<<<<< Updated upstream
 <div id="8272dc89" class="cell" data-execution_count="7">
+=======
+<div id="c8ccfd85" class="cell" data-execution_count="7">
+>>>>>>> Stashed changes
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>alt.Chart(df).mark_point()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="7">
 
 <style>
+<<<<<<< Updated upstream
   #altair-viz-69296fe6f86e4575ab6be03df13473c7.vega-embed {
+=======
+  #altair-viz-313bc9d4bf694d9dbe82fcd01075f0dd.vega-embed {
+>>>>>>> Stashed changes
     width: 100%;
     display: flex;
   }
 
+<<<<<<< Updated upstream
   #altair-viz-69296fe6f86e4575ab6be03df13473c7.vega-embed details,
   #altair-viz-69296fe6f86e4575ab6be03df13473c7.vega-embed details summary {
     position: relative;
   }
 </style>
 <div id="altair-viz-69296fe6f86e4575ab6be03df13473c7"></div>
+=======
+  #altair-viz-313bc9d4bf694d9dbe82fcd01075f0dd.vega-embed details,
+  #altair-viz-313bc9d4bf694d9dbe82fcd01075f0dd.vega-embed details summary {
+    position: relative;
+  }
+</style>
+<div id="altair-viz-313bc9d4bf694d9dbe82fcd01075f0dd"></div>
+>>>>>>> Stashed changes
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
+<<<<<<< Updated upstream
     if (outputDiv.id !== "altair-viz-69296fe6f86e4575ab6be03df13473c7") {
       outputDiv = document.getElementById("altair-viz-69296fe6f86e4575ab6be03df13473c7");
+=======
+    if (outputDiv.id !== "altair-viz-313bc9d4bf694d9dbe82fcd01075f0dd") {
+      outputDiv = document.getElementById("altair-viz-313bc9d4bf694d9dbe82fcd01075f0dd");
+>>>>>>> Stashed changes
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
@@ -722,30 +790,52 @@ pip install vega_datasets</code></pre>
 </section>
 <section id="one-point-per-city-on-y-axis" class="level2">
 <h2 class="anchored" data-anchor-id="one-point-per-city-on-y-axis">One point per city on y-axis</h2>
+<<<<<<< Updated upstream
 <div id="b675e40c" class="cell" data-execution_count="8">
+=======
+<div id="e0010ce2" class="cell" data-execution_count="8">
+>>>>>>> Stashed changes
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>alt.Chart(df).mark_point().encode(</span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  alt.Y(<span class="st">'city'</span>)</span>
 <span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="8">
 
 <style>
+<<<<<<< Updated upstream
   #altair-viz-165374d290ee46a9a5ab992c71c7bd9e.vega-embed {
+=======
+  #altair-viz-9aa6b21eabc740ccab0bfae2915b502d.vega-embed {
+>>>>>>> Stashed changes
     width: 100%;
     display: flex;
   }
 
+<<<<<<< Updated upstream
   #altair-viz-165374d290ee46a9a5ab992c71c7bd9e.vega-embed details,
   #altair-viz-165374d290ee46a9a5ab992c71c7bd9e.vega-embed details summary {
     position: relative;
   }
 </style>
 <div id="altair-viz-165374d290ee46a9a5ab992c71c7bd9e"></div>
+=======
+  #altair-viz-9aa6b21eabc740ccab0bfae2915b502d.vega-embed details,
+  #altair-viz-9aa6b21eabc740ccab0bfae2915b502d.vega-embed details summary {
+    position: relative;
+  }
+</style>
+<div id="altair-viz-9aa6b21eabc740ccab0bfae2915b502d"></div>
+>>>>>>> Stashed changes
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
+<<<<<<< Updated upstream
     if (outputDiv.id !== "altair-viz-165374d290ee46a9a5ab992c71c7bd9e") {
       outputDiv = document.getElementById("altair-viz-165374d290ee46a9a5ab992c71c7bd9e");
+=======
+    if (outputDiv.id !== "altair-viz-9aa6b21eabc740ccab0bfae2915b502d") {
+      outputDiv = document.getElementById("altair-viz-9aa6b21eabc740ccab0bfae2915b502d");
+>>>>>>> Stashed changes
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
@@ -798,7 +888,11 @@ pip install vega_datasets</code></pre>
 </section>
 <section id="xy-coordinates" class="level2">
 <h2 class="anchored" data-anchor-id="xy-coordinates">xy coordinates</h2>
+<<<<<<< Updated upstream
 <div id="00a2bac2" class="cell" data-execution_count="9">
+=======
+<div id="3bb71838" class="cell" data-execution_count="9">
+>>>>>>> Stashed changes
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>alt.Chart(df).mark_point().encode(</span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>  alt.X(<span class="st">'precip'</span>),</span>
 <span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>  alt.Y(<span class="st">'city'</span>)</span>
@@ -806,23 +900,41 @@ pip install vega_datasets</code></pre>
 <div class="cell-output cell-output-display" data-execution_count="9">
 
 <style>
+<<<<<<< Updated upstream
   #altair-viz-9f58b4801abb4fddbfb7c3a41e961f2a.vega-embed {
+=======
+  #altair-viz-60dc6d19611d4effaabaf8ecabaf863b.vega-embed {
+>>>>>>> Stashed changes
     width: 100%;
     display: flex;
   }
 
+<<<<<<< Updated upstream
   #altair-viz-9f58b4801abb4fddbfb7c3a41e961f2a.vega-embed details,
   #altair-viz-9f58b4801abb4fddbfb7c3a41e961f2a.vega-embed details summary {
     position: relative;
   }
 </style>
 <div id="altair-viz-9f58b4801abb4fddbfb7c3a41e961f2a"></div>
+=======
+  #altair-viz-60dc6d19611d4effaabaf8ecabaf863b.vega-embed details,
+  #altair-viz-60dc6d19611d4effaabaf8ecabaf863b.vega-embed details summary {
+    position: relative;
+  }
+</style>
+<div id="altair-viz-60dc6d19611d4effaabaf8ecabaf863b"></div>
+>>>>>>> Stashed changes
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
+<<<<<<< Updated upstream
     if (outputDiv.id !== "altair-viz-9f58b4801abb4fddbfb7c3a41e961f2a") {
       outputDiv = document.getElementById("altair-viz-9f58b4801abb4fddbfb7c3a41e961f2a");
+=======
+    if (outputDiv.id !== "altair-viz-60dc6d19611d4effaabaf8ecabaf863b") {
+      outputDiv = document.getElementById("altair-viz-60dc6d19611d4effaabaf8ecabaf863b");
+>>>>>>> Stashed changes
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
@@ -879,7 +991,11 @@ pip install vega_datasets</code></pre>
 </section>
 <section id="data-transformation-aggregation" class="level2">
 <h2 class="anchored" data-anchor-id="data-transformation-aggregation">Data Transformation: Aggregation</h2>
+<<<<<<< Updated upstream
 <div id="da0e39ca" class="cell" data-execution_count="10">
+=======
+<div id="8f2ffc21" class="cell" data-execution_count="10">
+>>>>>>> Stashed changes
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>alt.Chart(df).mark_point().encode(</span>
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>  alt.X(<span class="st">'average(precip)'</span>),</span>
 <span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>  alt.Y(<span class="st">'city'</span>)</span>
@@ -887,23 +1003,41 @@ pip install vega_datasets</code></pre>
 <div class="cell-output cell-output-display" data-execution_count="10">
 
 <style>
+<<<<<<< Updated upstream
   #altair-viz-9a64517f79f2470482ebc41e9408787f.vega-embed {
+=======
+  #altair-viz-86e700f5d8b34edea14fd89d22755ce0.vega-embed {
+>>>>>>> Stashed changes
     width: 100%;
     display: flex;
   }
 
+<<<<<<< Updated upstream
   #altair-viz-9a64517f79f2470482ebc41e9408787f.vega-embed details,
   #altair-viz-9a64517f79f2470482ebc41e9408787f.vega-embed details summary {
     position: relative;
   }
 </style>
 <div id="altair-viz-9a64517f79f2470482ebc41e9408787f"></div>
+=======
+  #altair-viz-86e700f5d8b34edea14fd89d22755ce0.vega-embed details,
+  #altair-viz-86e700f5d8b34edea14fd89d22755ce0.vega-embed details summary {
+    position: relative;
+  }
+</style>
+<div id="altair-viz-86e700f5d8b34edea14fd89d22755ce0"></div>
+>>>>>>> Stashed changes
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
+<<<<<<< Updated upstream
     if (outputDiv.id !== "altair-viz-9a64517f79f2470482ebc41e9408787f") {
       outputDiv = document.getElementById("altair-viz-9a64517f79f2470482ebc41e9408787f");
+=======
+    if (outputDiv.id !== "altair-viz-86e700f5d8b34edea14fd89d22755ce0") {
+      outputDiv = document.getElementById("altair-viz-86e700f5d8b34edea14fd89d22755ce0");
+>>>>>>> Stashed changes
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
@@ -956,7 +1090,11 @@ pip install vega_datasets</code></pre>
 </section>
 <section id="bar-plot" class="level2">
 <h2 class="anchored" data-anchor-id="bar-plot">Bar plot</h2>
+<<<<<<< Updated upstream
 <div id="2cc8af37" class="cell" data-execution_count="11">
+=======
+<div id="2872f75c" class="cell" data-execution_count="11">
+>>>>>>> Stashed changes
 <div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>alt.Chart(df).mark_bar().encode(</span>
 <span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>    alt.X(<span class="st">'average(precip)'</span>),</span>
 <span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>    alt.Y(<span class="st">'city'</span>)</span>
@@ -964,23 +1102,41 @@ pip install vega_datasets</code></pre>
 <div class="cell-output cell-output-display" data-execution_count="11">
 
 <style>
+<<<<<<< Updated upstream
   #altair-viz-f19f3332238e40479dd5c8ab53857c65.vega-embed {
+=======
+  #altair-viz-f5408bf39a4943c2a8e513076df5b194.vega-embed {
+>>>>>>> Stashed changes
     width: 100%;
     display: flex;
   }
 
+<<<<<<< Updated upstream
   #altair-viz-f19f3332238e40479dd5c8ab53857c65.vega-embed details,
   #altair-viz-f19f3332238e40479dd5c8ab53857c65.vega-embed details summary {
     position: relative;
   }
 </style>
 <div id="altair-viz-f19f3332238e40479dd5c8ab53857c65"></div>
+=======
+  #altair-viz-f5408bf39a4943c2a8e513076df5b194.vega-embed details,
+  #altair-viz-f5408bf39a4943c2a8e513076df5b194.vega-embed details summary {
+    position: relative;
+  }
+</style>
+<div id="altair-viz-f5408bf39a4943c2a8e513076df5b194"></div>
+>>>>>>> Stashed changes
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
+<<<<<<< Updated upstream
     if (outputDiv.id !== "altair-viz-f19f3332238e40479dd5c8ab53857c65") {
       outputDiv = document.getElementById("altair-viz-f19f3332238e40479dd5c8ab53857c65");
+=======
+    if (outputDiv.id !== "altair-viz-f5408bf39a4943c2a8e513076df5b194") {
+      outputDiv = document.getElementById("altair-viz-f5408bf39a4943c2a8e513076df5b194");
+>>>>>>> Stashed changes
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
@@ -1034,7 +1190,11 @@ pip install vega_datasets</code></pre>
 <section id="syntax-understanding-altairs-shorthands." class="level2">
 <h2 class="anchored" data-anchor-id="syntax-understanding-altairs-shorthands.">Syntax: Understanding Altair’s shorthands.</h2>
 <p>Three ways to say the same idea</p>
+<<<<<<< Updated upstream
 <div id="29cdb204" class="cell" data-execution_count="12">
+=======
+<div id="af32ee35" class="cell" data-execution_count="12">
+>>>>>>> Stashed changes
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># what we will continue to use</span></span>
 <span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>alt.X(<span class="st">'average(precip)'</span>)</span>
 <span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -1047,7 +1207,11 @@ pip install vega_datasets</code></pre>
 </section>
 <section id="customizing-a-plot-colors-and-labels" class="level2">
 <h2 class="anchored" data-anchor-id="customizing-a-plot-colors-and-labels">Customizing a plot – colors and labels</h2>
+<<<<<<< Updated upstream
 <div id="ca3a6452" class="cell" data-execution_count="13">
+=======
+<div id="b5e53fbe" class="cell" data-execution_count="13">
+>>>>>>> Stashed changes
 <div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>alt.Chart(df).mark_point(color<span class="op">=</span><span class="st">'firebrick'</span>).encode(</span>
 <span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>  alt.X(<span class="st">'precip'</span>, axis<span class="op">=</span>alt.Axis(title<span class="op">=</span><span class="st">'Rain  (in)'</span>)),</span>
 <span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>  alt.Y(<span class="st">'city'</span>, axis<span class="op">=</span>alt.Axis(title<span class="op">=</span><span class="st">'City'</span>)),</span>
@@ -1055,23 +1219,41 @@ pip install vega_datasets</code></pre>
 <div class="cell-output cell-output-display" data-execution_count="12">
 
 <style>
+<<<<<<< Updated upstream
   #altair-viz-e3e9a5098828480f89cab447111793ce.vega-embed {
+=======
+  #altair-viz-6357b0bc98514874bc3eeffcdfb096e8.vega-embed {
+>>>>>>> Stashed changes
     width: 100%;
     display: flex;
   }
 
+<<<<<<< Updated upstream
   #altair-viz-e3e9a5098828480f89cab447111793ce.vega-embed details,
   #altair-viz-e3e9a5098828480f89cab447111793ce.vega-embed details summary {
     position: relative;
   }
 </style>
 <div id="altair-viz-e3e9a5098828480f89cab447111793ce"></div>
+=======
+  #altair-viz-6357b0bc98514874bc3eeffcdfb096e8.vega-embed details,
+  #altair-viz-6357b0bc98514874bc3eeffcdfb096e8.vega-embed details summary {
+    position: relative;
+  }
+</style>
+<div id="altair-viz-6357b0bc98514874bc3eeffcdfb096e8"></div>
+>>>>>>> Stashed changes
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
+<<<<<<< Updated upstream
     if (outputDiv.id !== "altair-viz-e3e9a5098828480f89cab447111793ce") {
       outputDiv = document.getElementById("altair-viz-e3e9a5098828480f89cab447111793ce");
+=======
+    if (outputDiv.id !== "altair-viz-6357b0bc98514874bc3eeffcdfb096e8") {
+      outputDiv = document.getElementById("altair-viz-6357b0bc98514874bc3eeffcdfb096e8");
+>>>>>>> Stashed changes
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
@@ -1124,7 +1306,11 @@ pip install vega_datasets</code></pre>
 </section>
 <section id="customizing-a-visualization-log-scale" class="level2">
 <h2 class="anchored" data-anchor-id="customizing-a-visualization-log-scale">Customizing a visualization – log scale</h2>
+<<<<<<< Updated upstream
 <div id="cba20adf" class="cell" data-execution_count="14">
+=======
+<div id="ea0f1f63" class="cell" data-execution_count="14">
+>>>>>>> Stashed changes
 <div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>alt.Chart(df).mark_point(color<span class="op">=</span><span class="st">'firebrick'</span>).encode(</span>
 <span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>  alt.X(<span class="st">'precip'</span>, scale<span class="op">=</span>alt.Scale(<span class="bu">type</span><span class="op">=</span><span class="st">'log'</span>), axis<span class="op">=</span>alt.Axis(title<span class="op">=</span><span class="st">'Log-Scaled Values'</span>)),</span>
 <span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>  alt.Y(<span class="st">'city'</span>, axis<span class="op">=</span>alt.Axis(title<span class="op">=</span><span class="st">'City'</span>)),</span>
@@ -1132,23 +1318,41 @@ pip install vega_datasets</code></pre>
 <div class="cell-output cell-output-display" data-execution_count="13">
 
 <style>
+<<<<<<< Updated upstream
   #altair-viz-0b4053156a6c4be9a3c5cb841f4b2df7.vega-embed {
+=======
+  #altair-viz-256cc73c8c3c42db87d18e14e8ccec27.vega-embed {
+>>>>>>> Stashed changes
     width: 100%;
     display: flex;
   }
 
+<<<<<<< Updated upstream
   #altair-viz-0b4053156a6c4be9a3c5cb841f4b2df7.vega-embed details,
   #altair-viz-0b4053156a6c4be9a3c5cb841f4b2df7.vega-embed details summary {
     position: relative;
   }
 </style>
 <div id="altair-viz-0b4053156a6c4be9a3c5cb841f4b2df7"></div>
+=======
+  #altair-viz-256cc73c8c3c42db87d18e14e8ccec27.vega-embed details,
+  #altair-viz-256cc73c8c3c42db87d18e14e8ccec27.vega-embed details summary {
+    position: relative;
+  }
+</style>
+<div id="altair-viz-256cc73c8c3c42db87d18e14e8ccec27"></div>
+>>>>>>> Stashed changes
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
+<<<<<<< Updated upstream
     if (outputDiv.id !== "altair-viz-0b4053156a6c4be9a3c5cb841f4b2df7") {
       outputDiv = document.getElementById("altair-viz-0b4053156a6c4be9a3c5cb841f4b2df7");
+=======
+    if (outputDiv.id !== "altair-viz-256cc73c8c3c42db87d18e14e8ccec27") {
+      outputDiv = document.getElementById("altair-viz-256cc73c8c3c42db87d18e14e8ccec27");
+>>>>>>> Stashed changes
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
@@ -1226,7 +1430,11 @@ pip install vega_datasets</code></pre>
 </section>
 <section id="mark_line" class="level2">
 <h2 class="anchored" data-anchor-id="mark_line"><code>mark_line()</code></h2>
+<<<<<<< Updated upstream
 <div id="5992d704" class="cell" data-execution_count="15">
+=======
+<div id="8307e9b5" class="cell" data-execution_count="15">
+>>>>>>> Stashed changes
 <div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>alt.Chart(cars).mark_line().encode(</span>
 <span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>    alt.X(<span class="st">'Year'</span>),</span>
 <span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>    alt.Y(<span class="st">'average(Miles_per_Gallon)'</span>)</span>
@@ -1234,23 +1442,41 @@ pip install vega_datasets</code></pre>
 <div class="cell-output cell-output-display" data-execution_count="14">
 
 <style>
+<<<<<<< Updated upstream
   #altair-viz-d814be96ae22464e844b95c03944eb97.vega-embed {
+=======
+  #altair-viz-4cef6f71fae74863a6e4507959b28144.vega-embed {
+>>>>>>> Stashed changes
     width: 100%;
     display: flex;
   }
 
+<<<<<<< Updated upstream
   #altair-viz-d814be96ae22464e844b95c03944eb97.vega-embed details,
   #altair-viz-d814be96ae22464e844b95c03944eb97.vega-embed details summary {
     position: relative;
   }
 </style>
 <div id="altair-viz-d814be96ae22464e844b95c03944eb97"></div>
+=======
+  #altair-viz-4cef6f71fae74863a6e4507959b28144.vega-embed details,
+  #altair-viz-4cef6f71fae74863a6e4507959b28144.vega-embed details summary {
+    position: relative;
+  }
+</style>
+<div id="altair-viz-4cef6f71fae74863a6e4507959b28144"></div>
+>>>>>>> Stashed changes
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
+<<<<<<< Updated upstream
     if (outputDiv.id !== "altair-viz-d814be96ae22464e844b95c03944eb97") {
       outputDiv = document.getElementById("altair-viz-d814be96ae22464e844b95c03944eb97");
+=======
+    if (outputDiv.id !== "altair-viz-4cef6f71fae74863a6e4507959b28144") {
+      outputDiv = document.getElementById("altair-viz-4cef6f71fae74863a6e4507959b28144");
+>>>>>>> Stashed changes
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
@@ -1303,7 +1529,11 @@ pip install vega_datasets</code></pre>
 </section>
 <section id="multiple-marks-the-long-way" class="level2">
 <h2 class="anchored" data-anchor-id="multiple-marks-the-long-way">Multiple Marks – the long way</h2>
+<<<<<<< Updated upstream
 <div id="3a0f2f4d" class="cell" data-execution_count="16">
+=======
+<div id="64570a44" class="cell" data-execution_count="16">
+>>>>>>> Stashed changes
 <div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>line <span class="op">=</span> alt.Chart(cars).mark_line().encode(</span>
 <span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>    alt.X(<span class="st">'Year'</span>),</span>
 <span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>    alt.Y(<span class="st">'average(Miles_per_Gallon)'</span>)</span>
@@ -1318,23 +1548,41 @@ pip install vega_datasets</code></pre>
 <div class="cell-output cell-output-display" data-execution_count="15">
 
 <style>
+<<<<<<< Updated upstream
   #altair-viz-f006f2b3c9704f2fa83062362e4923ad.vega-embed {
+=======
+  #altair-viz-db8b1169dc944f3f82d78c0d70d02137.vega-embed {
+>>>>>>> Stashed changes
     width: 100%;
     display: flex;
   }
 
+<<<<<<< Updated upstream
   #altair-viz-f006f2b3c9704f2fa83062362e4923ad.vega-embed details,
   #altair-viz-f006f2b3c9704f2fa83062362e4923ad.vega-embed details summary {
     position: relative;
   }
 </style>
 <div id="altair-viz-f006f2b3c9704f2fa83062362e4923ad"></div>
+=======
+  #altair-viz-db8b1169dc944f3f82d78c0d70d02137.vega-embed details,
+  #altair-viz-db8b1169dc944f3f82d78c0d70d02137.vega-embed details summary {
+    position: relative;
+  }
+</style>
+<div id="altair-viz-db8b1169dc944f3f82d78c0d70d02137"></div>
+>>>>>>> Stashed changes
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
+<<<<<<< Updated upstream
     if (outputDiv.id !== "altair-viz-f006f2b3c9704f2fa83062362e4923ad") {
       outputDiv = document.getElementById("altair-viz-f006f2b3c9704f2fa83062362e4923ad");
+=======
+    if (outputDiv.id !== "altair-viz-db8b1169dc944f3f82d78c0d70d02137") {
+      outputDiv = document.getElementById("altair-viz-db8b1169dc944f3f82d78c0d70d02137");
+>>>>>>> Stashed changes
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
@@ -1387,7 +1635,11 @@ pip install vega_datasets</code></pre>
 </section>
 <section id="multiple-marks-the-short-way" class="level2">
 <h2 class="anchored" data-anchor-id="multiple-marks-the-short-way">Multiple Marks – the short way</h2>
+<<<<<<< Updated upstream
 <div id="75a67ce8" class="cell" data-execution_count="17">
+=======
+<div id="15996b95" class="cell" data-execution_count="17">
+>>>>>>> Stashed changes
 <div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>mpg <span class="op">=</span> alt.Chart(cars).mark_line().encode(</span>
 <span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>    alt.X(<span class="st">'Year'</span>),</span>
 <span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>    alt.Y(<span class="st">'average(Miles_per_Gallon)'</span>)</span>
@@ -1397,23 +1649,41 @@ pip install vega_datasets</code></pre>
 <div class="cell-output cell-output-display" data-execution_count="16">
 
 <style>
+<<<<<<< Updated upstream
   #altair-viz-00e78d95e9ba43f6be0b9f3fa86f2995.vega-embed {
+=======
+  #altair-viz-26b4d20dae0c446ea6e7e1f8b1774339.vega-embed {
+>>>>>>> Stashed changes
     width: 100%;
     display: flex;
   }
 
+<<<<<<< Updated upstream
   #altair-viz-00e78d95e9ba43f6be0b9f3fa86f2995.vega-embed details,
   #altair-viz-00e78d95e9ba43f6be0b9f3fa86f2995.vega-embed details summary {
     position: relative;
   }
 </style>
 <div id="altair-viz-00e78d95e9ba43f6be0b9f3fa86f2995"></div>
+=======
+  #altair-viz-26b4d20dae0c446ea6e7e1f8b1774339.vega-embed details,
+  #altair-viz-26b4d20dae0c446ea6e7e1f8b1774339.vega-embed details summary {
+    position: relative;
+  }
+</style>
+<div id="altair-viz-26b4d20dae0c446ea6e7e1f8b1774339"></div>
+>>>>>>> Stashed changes
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
+<<<<<<< Updated upstream
     if (outputDiv.id !== "altair-viz-00e78d95e9ba43f6be0b9f3fa86f2995") {
       outputDiv = document.getElementById("altair-viz-00e78d95e9ba43f6be0b9f3fa86f2995");
+=======
+    if (outputDiv.id !== "altair-viz-26b4d20dae0c446ea6e7e1f8b1774339") {
+      outputDiv = document.getElementById("altair-viz-26b4d20dae0c446ea6e7e1f8b1774339");
+>>>>>>> Stashed changes
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
@@ -1466,7 +1736,11 @@ pip install vega_datasets</code></pre>
 </section>
 <section id="multiple-marks-the-shortest-way" class="level2">
 <h2 class="anchored" data-anchor-id="multiple-marks-the-shortest-way">Multiple Marks – the shortest way</h2>
+<<<<<<< Updated upstream
 <div id="7b83358f" class="cell" data-execution_count="18">
+=======
+<div id="524ddb40" class="cell" data-execution_count="18">
+>>>>>>> Stashed changes
 <div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>alt.Chart(cars).mark_line(point<span class="op">=</span><span class="va">True</span>).encode(</span>
 <span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>    alt.X(<span class="st">'Year'</span>),</span>
 <span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>    alt.Y(<span class="st">'average(Miles_per_Gallon)'</span>)</span>
@@ -1475,7 +1749,11 @@ pip install vega_datasets</code></pre>
 </section>
 <section id="multiple-panels" class="level2">
 <h2 class="anchored" data-anchor-id="multiple-panels">Multiple Panels</h2>
+<<<<<<< Updated upstream
 <div id="e5d63e40" class="cell" data-execution_count="19">
+=======
+<div id="5304c4b0" class="cell" data-execution_count="19">
+>>>>>>> Stashed changes
 <div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>hp <span class="op">=</span> alt.Chart(cars).mark_line().encode(</span>
 <span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>    alt.X(<span class="st">'Year'</span>),</span>
 <span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>    alt.Y(<span class="st">'average(Horsepower)'</span>)</span>
@@ -1485,23 +1763,41 @@ pip install vega_datasets</code></pre>
 <div class="cell-output cell-output-display" data-execution_count="17">
 
 <style>
+<<<<<<< Updated upstream
   #altair-viz-fb28833a94ca4c159455b9ad5bfe1d33.vega-embed {
+=======
+  #altair-viz-630c2477be4e47c7b36c64692765cdba.vega-embed {
+>>>>>>> Stashed changes
     width: 100%;
     display: flex;
   }
 
+<<<<<<< Updated upstream
   #altair-viz-fb28833a94ca4c159455b9ad5bfe1d33.vega-embed details,
   #altair-viz-fb28833a94ca4c159455b9ad5bfe1d33.vega-embed details summary {
     position: relative;
   }
 </style>
 <div id="altair-viz-fb28833a94ca4c159455b9ad5bfe1d33"></div>
+=======
+  #altair-viz-630c2477be4e47c7b36c64692765cdba.vega-embed details,
+  #altair-viz-630c2477be4e47c7b36c64692765cdba.vega-embed details summary {
+    position: relative;
+  }
+</style>
+<div id="altair-viz-630c2477be4e47c7b36c64692765cdba"></div>
+>>>>>>> Stashed changes
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
+<<<<<<< Updated upstream
     if (outputDiv.id !== "altair-viz-fb28833a94ca4c159455b9ad5bfe1d33") {
       outputDiv = document.getElementById("altair-viz-fb28833a94ca4c159455b9ad5bfe1d33");
+=======
+    if (outputDiv.id !== "altair-viz-630c2477be4e47c7b36c64692765cdba") {
+      outputDiv = document.getElementById("altair-viz-630c2477be4e47c7b36c64692765cdba");
+>>>>>>> Stashed changes
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
@@ -1607,7 +1903,11 @@ pip install vega_datasets</code></pre>
 <section id="example-1-snippet-from-altair" class="level2">
 <h2 class="anchored" data-anchor-id="example-1-snippet-from-altair">example 1: snippet from Altair</h2>
 <p>Altair can best be thought of as a language translator. It writes JSON for you. More specifically, it writes JSON which complies with the grammar rules laid out by Vega-Lite.</p>
+<<<<<<< Updated upstream
 <div id="7041b1fd" class="cell" data-execution_count="20">
+=======
+<div id="ef914429" class="cell" data-execution_count="20">
+>>>>>>> Stashed changes
 <div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co">#python altair object. will explain :Q in next lecture</span></span>
 <span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> alt.X(<span class="st">'average(precipitation):Q'</span>) </span>
 <span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(x.to_json())                  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -1622,8 +1922,13 @@ pip install vega_datasets</code></pre>
 </section>
 <section id="example-2-longer-snippet-from-altair" class="level2">
 <h2 class="anchored" data-anchor-id="example-2-longer-snippet-from-altair">example 2: longer snippet from Altair</h2>
+<<<<<<< Updated upstream
 <div id="123d422e" class="cell" data-execution_count="21">
 <div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>chart <span class="op">=</span> alt.Chart().mark_point().encode(</span>
+=======
+<div id="4f8138e6" class="cell" data-execution_count="21">
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>chart <span class="op">=</span> alt.Chart().mark_bar().encode(</span>
+>>>>>>> Stashed changes
 <span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>    alt.X(<span class="st">'average(precipitation):Q'</span>),</span>
 <span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>    alt.Y(<span class="st">'city:O'</span>)</span>
 <span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>)</span>
@@ -1665,8 +1970,13 @@ pip install vega_datasets</code></pre>
 </section>
 <section id="example-3-add-df-to-make-the-bar-plot-from-earlier-in-lecture" class="level2">
 <h2 class="anchored" data-anchor-id="example-3-add-df-to-make-the-bar-plot-from-earlier-in-lecture">Example 3: add <code>df</code> to make the bar plot from earlier in lecture</h2>
+<<<<<<< Updated upstream
 <div id="0e3d663f" class="cell" data-execution_count="22">
 <div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>chart <span class="op">=</span> alt.Chart(df).mark_point().encode(</span>
+=======
+<div id="a571f806" class="cell" data-execution_count="22">
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>chart <span class="op">=</span> alt.Chart(df).mark_bar().encode(</span>
+>>>>>>> Stashed changes
 <span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>    alt.X(<span class="st">'average(precip)'</span>),</span>
 <span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>    alt.Y(<span class="st">'city'</span>)</span>
 <span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>)</span>
@@ -1752,7 +2062,11 @@ pip install vega_datasets</code></pre>
 </section>
 <section id="syntax-keys" class="level2">
 <h2 class="anchored" data-anchor-id="syntax-keys">syntax: <code>keys()</code></h2>
+<<<<<<< Updated upstream
 <div id="270e8238" class="cell" data-execution_count="23">
+=======
+<div id="eca851c0" class="cell" data-execution_count="23">
+>>>>>>> Stashed changes
 <div class="sourceCode cell-code" id="cb30"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> json</span>
 <span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>chart_as_string <span class="op">=</span> chart.to_json()</span>
 <span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>chart <span class="op">=</span> json.loads(chart_as_string)</span>
@@ -1764,7 +2078,11 @@ pip install vega_datasets</code></pre>
 </section>
 <section id="extract-dataset" class="level2">
 <h2 class="anchored" data-anchor-id="extract-dataset">extract dataset</h2>
+<<<<<<< Updated upstream
 <div id="3817566b" class="cell" data-execution_count="24">
+=======
+<div id="04cfb9da" class="cell" data-execution_count="24">
+>>>>>>> Stashed changes
 <div class="sourceCode cell-code" id="cb32"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>chart.get(<span class="st">"datasets"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="22">
 <pre><code>{'data-8e72c2f67818e64f2c6d729f1a903405': [{'city': 'Seattle',
